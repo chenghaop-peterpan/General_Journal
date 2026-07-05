@@ -1,0 +1,26 @@
+# Deps / build
+node_modules/
+dist/
+dist-ssr/
+
+# Env (per-app .env files live in frontend/.env.local etc)
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Claude Code local settings
+.claude/
